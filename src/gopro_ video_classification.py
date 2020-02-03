@@ -21,8 +21,8 @@ from utils import visualization_utils as vis_util
 
 
 # Define the video stream
-#cap = cv2.VideoCapture(0)  # Change only if you have more than one webcams
-cap = cv2.VideoCapture("udp://127.0.0.1:10000") #Video Stream from GoPro
+cap = cv2.VideoCapture(0)  # Change only if you have more than one webcams
+#cap = cv2.VideoCapture("udp://127.0.0.1:10000") #Video Stream from GoPro
 #cap = cv2.VideoCapture("udp://@127.0.0.1:10000") #Video Stream from GoPro
 # What model to download.
 # Models can bee found here: https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md
